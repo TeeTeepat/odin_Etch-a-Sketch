@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorText {
+    display: none;
+    color: red;
+}
+
+.input_board_size {
+    margin: 20px;
+}
+
+.board {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 700px;
+}
+
+.box {
+    flex: 1 1;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
